@@ -82,13 +82,46 @@
         </div>
         <div class="slide__right">
           <div class="visual-card visual--holesnap" id="card1">
-            <div class="hole-grid" id="holeGrid">
-              <div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div>
-              <div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div>
-              <div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div>
-              <div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div>
-              <div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div>
-              <div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div>
+            <div class="cad-header">
+              <div class="cad-header__left">
+                <span class="cad-dot"></span>
+                <span class="cad-title">PARAMETRIC VIEW</span>
+              </div>
+              <div class="cad-export-badges">
+                <span class="cad-badge">SVG</span>
+                <span class="cad-badge cad-badge--active">DXF</span>
+                <span class="cad-badge">STP</span>
+              </div>
+            </div>
+
+            <div class="cad-canvas">
+              <div class="cad-axis-y">
+                <span>120</span><span>80</span><span>40</span><span>0</span>
+              </div>
+              <div class="hole-grid" id="holeGrid">
+                <div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div>
+                <div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div>
+                <div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div>
+                <div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div>
+                <div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div>
+                <div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div><div class="hole-dot is-on"></div>
+              </div>
+              <div class="cad-crosshair"></div>
+            </div>
+
+            <div class="cad-hud">
+              <div class="cad-hud__item">
+                <span class="cad-hud__label">PITCH</span>
+                <span class="cad-hud__val">14.0 mm</span>
+              </div>
+              <div class="cad-hud__item">
+                <span class="cad-hud__label">OPEN AREA</span>
+                <span class="cad-hud__val">42.8%</span>
+              </div>
+              <div class="cad-hud__item">
+                <span class="cad-hud__label">TOLERANCE</span>
+                <span class="cad-hud__val">±0.02</span>
+              </div>
             </div>
           </div>
         </div>
@@ -119,40 +152,58 @@
         </div>
         <div class="slide__right">
           <div class="visual-card visual--zider" id="card2">
-            <p class="visual-label">Components</p>
-            <div class="zider-block">
-              <div class="zider-icon" style="background:#087A46;"></div>
-              <div class="zider-lines">
-                <div class="zider-line" style="width:68%;background:#d1fae5;"></div>
-                <div class="zider-line" style="width:42%;height:5px;"></div>
+            <div class="zider-header">
+              <div class="zider-header__title">
+                <span class="zider-header__dot"></span>
+                <span>CREATOR COMPONENT SUITE</span>
+              </div>
+              <span class="zider-version">v2.4 READY</span>
+            </div>
+
+            <div class="zider-widget zider-widget--player">
+              <div class="zider-player__play">
+                <svg width="10" height="10" viewBox="0 0 12 12" fill="currentColor"><path d="M3.5 2.5L9.5 6L3.5 9.5V2.5Z"/></svg>
+              </div>
+              <div class="zider-player__info">
+                <div class="zider-player__title">Audio Player · Ambient Radio</div>
+                <div class="zider-eq">
+                  <span class="eq-bar"></span><span class="eq-bar"></span><span class="eq-bar"></span>
+                  <span class="eq-bar"></span><span class="eq-bar"></span><span class="eq-bar"></span>
+                  <span class="eq-bar"></span><span class="eq-bar"></span><span class="eq-bar"></span>
+                </div>
+              </div>
+              <span class="zider-player__time">02:45</span>
+            </div>
+
+            <div class="zider-widget zider-widget--switch">
+              <div class="zider-switch__left">
+                <span class="zider-switch__badge">ACTIVE</span>
+                <span class="zider-switch__label">Dynamic Theme Switcher</span>
+              </div>
+              <div class="zider-toggle is-on">
+                <div class="zider-toggle__handle"></div>
               </div>
             </div>
-            <div class="zider-block">
-              <div class="zider-icon" style="background:#0D9488;"></div>
-              <div class="zider-lines">
-                <div class="zider-line" style="width:54%;background:#ccfbf1;"></div>
-                <div class="zider-line" style="width:33%;height:5px;"></div>
+
+            <div class="zider-widget zider-widget--metric">
+              <div class="zider-metric__content">
+                <span class="zider-metric__num">+28.4%</span>
+                <span class="zider-metric__desc">Site Engagement Lift</span>
               </div>
+              <svg class="zider-sparkline" width="76" height="24" viewBox="0 0 76 24" fill="none">
+                <path d="M2 20L18 14L32 17L48 8L62 11L74 3" stroke="#087A46" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="74" cy="3" r="2.5" fill="#087A46"/>
+              </svg>
             </div>
-            <div class="zider-block">
-              <div class="zider-icon" style="background:#f59e0b;"></div>
-              <div class="zider-lines">
-                <div class="zider-line" style="width:78%;background:#fef3c7;"></div>
-                <div class="zider-line" style="width:48%;height:5px;"></div>
-              </div>
-            </div>
-            <div class="zider-block">
-              <div class="zider-icon" style="background:#ec4899;"></div>
-              <div class="zider-lines">
-                <div class="zider-line" style="width:60%;background:#fce7f3;"></div>
-                <div class="zider-line" style="width:38%;height:5px;"></div>
-              </div>
-            </div>
+
             <div class="zider-platforms">
-              <span class="platform-tag">Webflow</span>
-              <span class="platform-tag">Framer</span>
-              <span class="platform-tag">WordPress</span>
-              <span class="platform-tag">Shopify</span>
+              <span class="platform-label">COMPATIBLE WITH:</span>
+              <div class="platform-tags">
+                <span class="platform-tag">Webflow</span>
+                <span class="platform-tag">Framer</span>
+                <span class="platform-tag">WordPress</span>
+                <span class="platform-tag">Shopify</span>
+              </div>
             </div>
           </div>
         </div>
@@ -183,27 +234,77 @@
         </div>
         <div class="slide__right">
           <div class="visual-card visual--zirwork" id="card3">
-            <p class="visual-label visual-label--dark">Orders</p>
-            <div class="zirwork-row">
-              <div class="zirwork-row__label">ORD-2024-8812 · Acme Corp</div>
-              <span class="zirwork-badge zirwork-badge--gray">Processing</span>
-              <div class="zirwork-row__val">$12,450</div>
+            <div class="zirwork-header">
+              <div class="zirwork-header__status">
+                <span class="zirwork-pulse"></span>
+                <span class="zirwork-title">OPERATIONS COCKPIT</span>
+              </div>
+              <span class="zirwork-latency">SYNC 12ms</span>
             </div>
-            <div class="zirwork-row">
-              <div class="zirwork-row__label">ORD-2024-8811 · Globex Inc</div>
-              <span class="zirwork-badge zirwork-badge--green">Fulfilled</span>
-              <div class="zirwork-row__val">$3,200</div>
+
+            <div class="zirwork-kpis">
+              <div class="zirwork-kpi">
+                <span class="zirwork-kpi__label">DAILY VOLUME</span>
+                <div class="zirwork-kpi__row">
+                  <span class="zirwork-kpi__val">142</span>
+                  <span class="zirwork-kpi__badge">+18.4%</span>
+                </div>
+              </div>
+              <div class="zirwork-kpi">
+                <span class="zirwork-kpi__label">FULFILLMENT</span>
+                <div class="zirwork-kpi__row">
+                  <span class="zirwork-kpi__val">99.4%</span>
+                  <span class="zirwork-kpi__badge zirwork-kpi__badge--lime">AUTO</span>
+                </div>
+              </div>
             </div>
-            <div class="zirwork-row">
-              <div class="zirwork-row__label">ORD-2024-8810 · Initech</div>
-              <span class="zirwork-badge zirwork-badge--gray">Pending</span>
-              <div class="zirwork-row__val">$850</div>
+
+            <div class="zirwork-stream">
+              <div class="zirwork-row">
+                <div class="zirwork-row__icon">
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 6L5 9L10 3" stroke="#89C941" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="zirwork-row__body">
+                  <div class="zirwork-row__top">
+                    <span class="zirwork-row__title">ORD-8812 · Global Distribution</span>
+                    <span class="zirwork-badge zirwork-badge--lime">FULFILLED</span>
+                  </div>
+                  <div class="zirwork-bar"><div class="zirwork-bar__fill" style="width: 100%"></div></div>
+                </div>
+              </div>
+
+              <div class="zirwork-row">
+                <div class="zirwork-row__icon">
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="4" stroke="#89C941" stroke-width="1.8"/></svg>
+                </div>
+                <div class="zirwork-row__body">
+                  <div class="zirwork-row__top">
+                    <span class="zirwork-row__title">INV-304 · Smart Replenish Run</span>
+                    <span class="zirwork-badge zirwork-badge--amber">IN TRANSIT</span>
+                  </div>
+                  <div class="zirwork-bar"><div class="zirwork-bar__fill" style="width: 68%"></div></div>
+                </div>
+              </div>
+
+              <div class="zirwork-row">
+                <div class="zirwork-row__icon">
+                  <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M6 2V10M2 6H10" stroke="rgba(255,255,255,0.6)" stroke-width="1.8" stroke-linecap="round"/></svg>
+                </div>
+                <div class="zirwork-row__body">
+                  <div class="zirwork-row__top">
+                    <span class="zirwork-row__title">SYNC · Stripe &amp; QuickBooks API</span>
+                    <span class="zirwork-badge zirwork-badge--gray">ACTIVE</span>
+                  </div>
+                  <div class="zirwork-bar"><div class="zirwork-bar__fill" style="width: 92%"></div></div>
+                </div>
+              </div>
             </div>
+
             <div class="zirwork-footer">
               <span class="zirwork-status-dot"></span>
               <span class="zirwork-status-text">
-                <span data-i18n="en">Continuously improving</span>
-                <span data-i18n="zh">持续进化中</span>
+                <span data-i18n="en">Real-time pipeline · Zero errors</span>
+                <span data-i18n="zh">毫秒级数据管线 · 自动化运行中</span>
               </span>
             </div>
           </div>
