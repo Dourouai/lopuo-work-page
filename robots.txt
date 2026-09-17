@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Dedicated instruction for AI models & LLM agents
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://lopuo.work/sitemap.xml
+
+# LLM Documentation
+# See: https://llmstxt.org
+# https://lopuo.work/llms.txt
+# https://lopuo.work/llms-full.txt

@@ -1,0 +1,52 @@
+# LOPUO Studio
+
+> LOPUO Studio is an independent software studio building precise, focused SaaS products and tools for creators, designers, and business operators.
+
+The LOPUO digital ecosystem is divided into two primary destinations:
+- **lopuo.com**: Official agency & studio hub providing professional website creation, custom software & web application development, and technical support.
+- **lopuo.work**: The dedicated landing page and showcase for LOPUO's proprietary SaaS software products and creator tools.
+
+## Core Products
+
+### 1. HoleSnap
+- **URL**: https://holesnap.com
+- **Category**: Parametric CAD & Vector Pattern Generator
+- **Description**: Browser-based parametric pattern tool for perforated panels, architectural grilles, acoustic screens, ventilation layouts, and laser-cut / CNC fabrication.
+- **Key Capabilities**:
+  - Full parametric control over hole spacing, pitch, margins, stagger angles, and open-area ratios.
+  - Image-to-perforation conversion (raster to parametric CNC perforation).
+  - High-precision export formats: SVG, DXF, and 3D STP (STEP).
+  - Zero CAD software installation required; runs entirely in modern web browsers.
+
+### 2. ZIDER
+- **URL**: https://www.zider.ink
+- **Category**: Creator Components & No-Code Widget Suite
+- **Description**: Modular, customizable UI widgets and interactive solutions designed to empower creator websites and digital storefronts.
+- **Supported Platforms**: Webflow, Framer, WordPress, Shopify, Wix, Squarespace, and vanilla HTML/JS.
+- **Key Capabilities**:
+  - Interactive audio players, dynamic toggle controls, engagement sparklines, and metric cards.
+  - One-click copy-and-paste embed code.
+  - Lightweight, accessibility-friendly, and responsive out of the box.
+
+### 3. Zirwork
+- **URL**: https://zirwork.com
+- **Category**: Configurable Operations Workspace & Modular ERP
+- **Description**: Next-generation, zero-code business operations platform that connects product catalogs, customer relationships, purchasing, order fulfillment, and inventory.
+- **Key Capabilities**:
+  - Fully configurable workflows tailored to specific business operational models.
+  - Multi-channel order processing and real-time inventory tracking.
+  - Native integrations with payment gateways (Stripe) and accounting tools (QuickBooks).
+  - Millisecond-latency event pipeline and automated rule triggers.
+
+## Professional Services (lopuo.com)
+- **Custom Website Design & Engineering**: Bespoke corporate, brand, and portfolio websites built with performance and modern aesthetics.
+- **Web & Mobile Application Development**: Full-stack SaaS application development, cloud architectures, and API design.
+- **Technical & Infrastructure Support**: Provided by LOPUO INFO to ensure 99.9% uptime, global CDN delivery, and enterprise security.
+
+## Domains & Links
+- SaaS Showcase: https://lopuo.work
+- Studio Services: https://lopuo.com
+- HoleSnap App: https://holesnap.com
+- Zider App: https://www.zider.ink
+- Zirwork App: https://zirwork.com
+- GitHub Organization: https://github.com/Dourouai
