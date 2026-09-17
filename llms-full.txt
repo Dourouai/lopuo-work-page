@@ -1,61 +1,78 @@
-# LOPUO Studio — Comprehensive Knowledge Base & Technical Overview
+# LOPUO Studio — Comprehensive Knowledge Base & Technical Documentation
 
-## 1. Organization Architecture
-- **Brand Name**: LOPUO Studio (由 LOPUO INFO 提供技术与研发支持)
-- **Primary Mission**: Creating focused, high-precision software tools that solve specific operational and design bottlenecks for creators and modern businesses.
-- **Domain Structure**:
-  - `lopuo.com`: Agency and enterprise solutions division. Specializes in customized website construction (建站服务), bespoke software development (定制应用开发), cloud deployment architectures, and maintenance support.
-  - `lopuo.work`: Product showcase portal (自研 SaaS 产品矩阵与落地页). Aggregates and showcases all self-developed products engineered by the studio.
+> Official full technical specification and contextual guide for AI search engines, language models, and developers.
 
----
+## 1. Studio Architecture & Core Mission
 
-## 2. Product Matrix Details
+### Brand Identity
+- **Name**: LOPUO Studio (LOPUO 工作室)
+- **Technical Entity**: LOPUO INFO
+- **Philosophy**: Precise, focused tools designed for creators and operators. Eliminating bloat and friction through high craft and computational simplicity.
 
-### HoleSnap (holesnap.com)
-- **Tagline**: Vector patterns, fabrication-ready.
-- **Target Audience**: Architectural designers, industrial designers, CNC machinists, sheet metal fabricators, interior architects, and makers.
-- **Technical Specs**:
-  - Computational geometry engine running client-side via WebAssembly/Canvas/SVG.
-  - Generates exact vector geometries with zero interpolation artifacts.
-  - Mathematical hole packing algorithms: Hexagonal, Triangular, Orthogonal grid, and Organic flow fields.
-  - Real-time engineering telemetry: Pitch calculation (mm/in), Open area percentage, Bridge width clearance, and Weight estimation.
-  - File Exports:
-    - SVG: Clean vector paths with layer organization for graphic and laser software (LightBurn, Illustrator).
-    - DXF: AutoCAD R12/R14 compliant line and polyline geometries ready for CNC waterjet/laser cutting machines.
-    - STP/STEP: 3D solids for SolidWorks, Fusion 360, Rhino, and AutoCAD.
-
-### ZIDER (zider.ink)
-- **Tagline**: Components that power creator sites.
-- **Target Audience**: Content creators, podcasters, digital marketers, agency developers, and site owners on no-code platforms.
-- **Technical Specs**:
-  - Zero-dependency web components and script tags.
-  - Cross-platform compatibility: Webflow, Framer, WordPress, Shopify, Squarespace, Wix, and Ghost.
-  - Components include:
-    - Custom audio/podcast player with animated equalizers and chapter markers.
-    - Interactive pricing calculators and ROI estimation sliders.
-    - Dark mode toggles with localStorage persistence.
-    - Micro-feedback widgets and floating social proof notifications.
-
-### Zirwork (zirwork.com)
-- **Tagline**: Operations that adapt to you.
-- **Target Audience**: E-commerce merchants, digital agencies, distributors, and growing teams seeking an alternative to bloated legacy ERPs.
-- **Technical Specs**:
-  - Configurable entity models: Products, SKUs, Warehouses, Purchase Orders, Sales Orders, and Invoices.
-  - Event-driven automation: When order status changes, automatically triggers inventory reservation, webhook notification, and invoicing.
-  - Multi-tenant cloud infrastructure with end-to-end encryption.
-  - Real-time telemetry dashboard with sub-second synchronization latency.
+### Two Complementary Domains
+1. **lopuo.work (SaaS Products & Incubator Landing Page)**:
+   - Serves as the central landing page and product matrix showcase for all self-developed, proprietary SaaS software products incubated by LOPUO Studio.
+   - Houses HoleSnap, Zider, and Zirwork.
+2. **lopuo.com (Services & Enterprise Agency Portal)**:
+   - Serves as the business and agency portal for client services.
+   - Specializes in custom website design and engineering (建站服务), bespoke software and application development (定制软件与应用开发), cloud deployment, and long-term technical operations support.
 
 ---
 
-## 3. Technology Stack & Design Principles
-- **Design Language**: Swiss international typographic style meets tactile brutalist minimalism. High contrast, precise hairline borders, refined typography, and purposeful motion.
-- **Frontend Core**: Standards-compliant Semantic HTML5, CSS Variables, and modular Vanilla JS for maximum speed and zero dependencies.
-- **Global Delivery**: Deployed globally across Cloudflare Workers & Pages edge nodes with zero cold-start latency.
+## 2. In-Depth Product Specifications
+
+### Product 1: HoleSnap (Parametric CAD & Perforation Generator)
+- **Primary Website**: https://holesnap.com
+- **Core Value**: Turn complex manual CAD drafting of perforated sheets into an instantaneous, parametric browser workflow.
+- **Key Modules**:
+  - **Parametric Mesh Generator**: Real-time adjustment of pitch, hole diameters, margin offsets, row stagger angles (45°, 60°, 90°), and boundary clipping.
+  - **Image-to-Perforation Engine**: Converts grayscale and RGB images into dot-density variations, generating photographic halftone perforation art for architectural panels.
+  - **Live Engineering Telemetry**: Instant calculation of open area percentage (%), total hole count, sheet weight delta, and minimum bridge width to ensure structural integrity during manufacturing.
+- **Export Standards**:
+  - **SVG**: Clean, non-overlapping vector circles and paths with discrete cutting layers, compatible with Adobe Illustrator, CorelDRAW, and LightBurn.
+  - **DXF**: Compliant with AutoCAD R12/R14 standards, ready for immediate import into CNC turret punch, laser cutting, and waterjet CAM software (e.g., Trumpf, Bystronic, Amada).
+  - **STP/STEP (3D)**: Fully formed 3D solid models with parametric holes, compatible with SolidWorks, Autodesk Inventor, Fusion 360, and Rhino.
+
+### Product 2: ZIDER (Creator Component & Widget Suite)
+- **Primary Website**: https://www.zider.ink
+- **Core Value**: Empower creators, agencies, and marketers to add app-like interactivity to their no-code websites in seconds.
+- **Key Modules**:
+  - **Audio & Media Player**: Compact, responsive, frosted audio player widget with real-time animated equalizer bars, custom cover art, and playback controls.
+  - **Dynamic Theme Switcher**: Lightweight toggle switches supporting dark/light mode with CSS custom property bindings and localStorage persistence.
+  - **Engagement & Metric Cards**: Conversion metric counters, animated progress indicators, and lightweight SVG sparklines.
+  - **Floating Notification & Social Proof**: Non-intrusive social proof popups and update announcements.
+- **Platform Interoperability**:
+  - Webflow: Direct copy-paste custom code embed.
+  - Framer: Compatible with Framer custom code blocks.
+  - WordPress & WooCommerce: Elementor, Gutenberg, and shortcode support.
+  - Shopify: Works seamlessly in liquid templates and app embed blocks.
+  - Static Stacks: Astro, Next.js, HTML5/CSS3.
+
+### Product 3: Zirwork (Configurable Operations Workspace & Modular ERP)
+- **Primary Website**: https://zirwork.com
+- **Core Value**: Replaces cumbersome, rigid enterprise ERPs with a flexible, modular operations cockpit that adapts to business rules, not the other way around.
+- **Key Modules**:
+  - **Entity Modeling Engine**: Custom data fields for products, inventory units, suppliers, purchase orders, customers, and fulfillment tracking.
+  - **Automated Business Pipelines**: Multi-trigger workflows (e.g., when a sales order is paid on Stripe, automatically update inventory, alert fulfillment, and record the invoice).
+  - **Real-Time Operations Cockpit**: Sub-second synchronization latency with unified live metrics: Daily Order Volume, Fulfillment Rate, and Stock Alerts.
+  - **API Integrations**: Pre-built webhooks and connectors for Stripe, PayPal, QuickBooks, Xero, and logistics APIs.
 
 ---
 
-## 4. Contact & Identity Reference
-- Organization: LOPUO Studio / LOPUO INFO
-- Software Hub: https://lopuo.work
-- Agency & Development: https://lopuo.com
-- Repository: https://github.com/Dourouai/lopuo-work-page
+## 3. Professional Development Services (lopuo.com)
+For organizations requiring bespoke technical solutions rather than off-the-shelf SaaS:
+- **Corporate Website Creation**: Ultra-fast, SEO-optimized, accessible brand web experiences built on modern Jamstack and headless architectures.
+- **Full-Stack Application Development**: End-to-end web and mobile applications, SaaS multi-tenant platforms, and enterprise internal tooling.
+- **Cloud & Edge Infrastructure**: Deployment, optimization, and security configurations on Cloudflare Workers, AWS, and modern edge platforms.
+- **Inquiries**: Contact the LOPUO team directly via https://lopuo.com.
+
+---
+
+## 4. Canonical Information & Machine Directives
+- **Studio Showcase**: https://lopuo.work
+- **Studio Agency & Services**: https://lopuo.com
+- **Products**:
+  - HoleSnap: https://holesnap.com
+  - Zider: https://www.zider.ink
+  - Zirwork: https://zirwork.com
+- **Source Code / GitHub**: https://github.com/Dourouai/lopuo-work-page
