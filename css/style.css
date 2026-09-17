@@ -297,10 +297,10 @@ body.dark-slide .bottom-scroll-btn:hover .scroll-btn__text {
 }
 .slide--3 .slide__num { color: rgba(255,255,255,0.25); }
 
-.slide__logo-wrap { margin-bottom: 1.5rem; will-change: transform; }
-.slide__logo--holesnap { height: 30px; width: auto; }
-.slide__logo--zider { height: 26px; width: auto; }
-.slide__logo--zirwork { height: 22px; width: auto; filter: brightness(0) invert(1); opacity: 0.9; }
+.slide__logo-wrap { margin-bottom: 1.5rem; will-change: transform; display: flex; align-items: center; }
+.slide__logo--holesnap { height: 30px; width: auto; display: block; }
+.slide__logo--zider { height: 24px; width: auto; display: block; }
+.slide__logo--zirwork { height: 24px; width: auto; filter: brightness(0) invert(1); opacity: 0.95; display: block; }
 
 .slide__title {
   font-size: clamp(1.85rem, 3.5vw, 3rem);
@@ -519,7 +519,7 @@ body.dark-slide .footer-strip a:hover {
   }
 
   .slide__logo--holesnap { height: 25px; }
-  .slide__logo--zider { height: 22px; }
+  .slide__logo--zider { height: 20px; }
   .slide__logo--zirwork { height: 20px; }
 
   .slide__title {
