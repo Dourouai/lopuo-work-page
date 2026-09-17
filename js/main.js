@@ -76,7 +76,7 @@
     var btnText = document.getElementById('scrollBtnText');
     var btnArrow = document.getElementById('scrollBadgeArrow');
     if (btnText) {
-      btnText.textContent = (current === TOTAL - 1) ? 'BACK TO TOP' : 'EXPLORE';
+      btnText.textContent = (current === TOTAL - 1) ? 'TOP' : 'EXPLORE';
     }
     if (btnArrow) {
       btnArrow.style.transform = (current === TOTAL - 1) ? 'rotate(180deg)' : 'rotate(0deg)';
