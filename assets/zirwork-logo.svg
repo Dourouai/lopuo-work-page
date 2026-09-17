@@ -1,0 +1,29 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1829 243"
+  role="img"
+  aria-labelledby="zirwork-logo-title zirwork-logo-desc"
+  preserveAspectRatio="xMidYMid meet"
+  focusable="false"
+>
+  <title id="zirwork-logo-title">ZIRWORK logo</title>
+  <desc id="zirwork-logo-desc">The ZIRWORK geometric mark beside a custom uppercase wordmark.</desc>
+
+  <!-- The two-piece mark is the approved Option A silhouette. Its visible height is 209px,
+       matching the cap height of the custom wordmark below. -->
+  <g id="zirwork-mark" aria-hidden="true">
+    <path fill="#063C32" d="M70 18h165l-66 89H2l68-89Z" />
+    <path fill="#A6D94A" d="M70 145h97l68-87v89l-68 80H0l70-82Z" />
+  </g>
+
+  <!-- Refined custom geometric uppercase wordmark. All letters share the mark's 209px visible height. -->
+  <g id="zirwork-wordmark" fill="#12221F" fill-rule="evenodd" aria-hidden="true">
+    <path data-letter="Z" d="M320 18h194l12 12v17L386 191h128l12 12v24H320v-22L458 54H332l-12-12V18Z" />
+    <path data-letter="I" d="M556 18h39v209h-39Z" />
+    <path data-letter="R" d="M630 18h100c55 0 87 33 87 81 0 37-21 63-59 75l71 53h-59l-69-49h-32v49h-39V18Zm39 36v89h57c31 0 51-17 51-44 0-27-20-45-51-45h-57Z" />
+    <path data-letter="W" d="M850 18h43l39 145 44-140h32l45 140 41-145h43l-54 209h-40L992 86l-47 141h-40L850 18Z" />
+    <path data-letter="O" d="M1265 18c60 0 102 44 102 104.5S1325 227 1265 227s-102-44-102-104.5S1205 18 1265 18Zm0 36c-36 0-61 27-61 68.5s25 68.5 61 68.5 61-27 61-68.5S1301 54 1265 54Z" />
+    <path data-letter="R" d="M1400 18h100c55 0 87 33 87 81 0 37-21 63-59 75l71 53h-59l-69-49h-32v49h-39V18Zm39 36v89h57c31 0 51-17 51-44 0-27-20-45-51-45h-57Z" />
+    <path data-letter="K" d="M1620 18h40v82l82-82h52l-96 100 108 109h-54l-92-92v92h-40V18Z" />
+  </g>
+</svg>
